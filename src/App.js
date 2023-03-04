@@ -2,7 +2,7 @@ import './App.css';
 import * as React from 'react';
 import HomePage from './component/pages/homePage/homePage-component';
 import ShopPage from './component/pages/shop-Page/shopPage.component';
-import ResponsiveAppBar from './component/header/header';
+import Header from './component/header/header';
 import SignIn from "./component/pages/signIn-page/signin";
 import SignUp from './component/pages/signup-page/signup';
 import { Route, Switch, Redirect } from 'react-router-dom';
@@ -14,7 +14,7 @@ import CheckoutPage from './component/pages/checkout-page/checkoutPage';
 function App({ currentUser }) {
   return (
     <div className="App">
-      <ResponsiveAppBar />
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/shop" component={ShopPage}></Route>
