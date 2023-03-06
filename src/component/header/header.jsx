@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className=" sticky-top bg-white p-2 shadow bg-opacity-75">
+    <div className=" sticky-top bg-white p-2 shadow" style={{opacity:'90%'}}>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
